@@ -1,0 +1,24 @@
+.student-manager-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.student-manager-table th, 
+.student-manager-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.student-manager-table thead tr {
+    background-color: #0073aa;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.student-manager-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
